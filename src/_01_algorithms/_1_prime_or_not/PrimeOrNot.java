@@ -9,14 +9,13 @@ public class PrimeOrNot {
 		for (int i =2;i< number;i++) {
 			if(number%i==0){
 				System.out.println("is not PRIME ");
-			JOptionPane.showMessageDialog(null, number+"is not PRIME ");
-			System.exit(0);
+				JOptionPane.showMessageDialog(null, number+" is not PRIME ");
+				System.exit(0);
+
 			}
 		}
+		JOptionPane.showMessageDialog(null,number+" It is PRIME");
+
+
 	}
-
-
-
-
-
 }
