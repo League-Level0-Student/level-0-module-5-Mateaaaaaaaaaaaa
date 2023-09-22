@@ -15,7 +15,5 @@ public class PrimeOrNot {
 			}
 		}
 		JOptionPane.showMessageDialog(null,number+" It is PRIME");
-
-
 	}
 }
