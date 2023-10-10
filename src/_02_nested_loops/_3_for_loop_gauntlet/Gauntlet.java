@@ -74,10 +74,54 @@ public class Gauntlet {
 
 		for (int i=1; i<4; i++) {
 			for(int j=1; j<4; j++) {
-				System.out.println();
+				//	System.out.println();
 
 			}
 
 		}
+
+		//int counter=1;
+		for (int i=1; i<4; i++) {
+			for (int j=1; j<4; j++) {
+				//			System.out.print(counter+" ");
+
+				//counter++;
+			}
+			//		System.out.println();
+
+		}
+
+
+		int counter=1;
+		for (int i=0; i<10; i++) {
+			for (int j=0; j<10; j++) {
+				//			System.out.print(counter+" ");
+
+				counter++;
+			}
+			//	System.out.println();
+		}
+
+		for (int i=1; i<7; i++) {
+			for (int j=1; j<=i; j++) {
+
+				//System.out.print("* ");
+
+
+			}
+			//	System.out.println();
+		}
+
+		for(int i = 0; i<100; i++) {
+
+			System.out.println();
+		}
 	}
 }
+
+
+
+
+
+
+
